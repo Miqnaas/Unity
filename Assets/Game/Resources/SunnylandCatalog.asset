@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73e7b0edba94b573c1ae486292a3d8a3, type: 3}
+  m_Name: SunnylandCatalog
+  m_EditorClassIdentifier: 
+  tileset: {fileID: 2800000, guid: 261212b977f594d5dbc48631a5c1295c, type: 3}
+  background: {fileID: 21300000, guid: 8e160a2a620644cd6afef9119dad1093, type: 3}
+  middle: {fileID: 21300000, guid: de41d366c687a46beb6a9acaa88c12db, type: 3}
+  house: {fileID: 21300000, guid: 52422ada2db954026a3ae1f1ba6b4486, type: 3}
+  sign: {fileID: 21300000, guid: 42820af2772f24bda991ed7de294c2fd, type: 3}
+  spikes: {fileID: 21300000, guid: 0049772a1acaf4a49b69bb504ffe2669, type: 3}
+  tree: {fileID: 21300000, guid: f7187675ec12e4aacaeb0e97ad31230a, type: 3}
+  rock: {fileID: 21300000, guid: 3604a08945c65491a9ffb90ad9a8ff57, type: 3}
+  idle:
+  - {fileID: 21300000, guid: 72de0c64f2c6a498096698322c976a67, type: 3}
+  - {fileID: 21300000, guid: c8a742c1f2ebb43b9afe34a47304c051, type: 3}
+  - {fileID: 21300000, guid: 077f0469c420a4365bc67943783293df, type: 3}
+  - {fileID: 21300000, guid: 8bc3c2c2a565342aab778fd8e874313a, type: 3}
+  run:
+  - {fileID: 21300000, guid: 8afd73b29f8e34c70b0db80184b8cc7f, type: 3}
+  - {fileID: 21300000, guid: d094cf6ac3d8a4d0bbbef5d6d6ad3eed, type: 3}
+  - {fileID: 21300000, guid: 3f59d4fdf4fe04ab79f11dadde82fe8c, type: 3}
+  - {fileID: 21300000, guid: bc3fcf1d561104bea933686de6bade4b, type: 3}
+  - {fileID: 21300000, guid: f58cc0961cc9146ca9780a0cb1327e5d, type: 3}
+  - {fileID: 21300000, guid: af314424f59d946469a97f398e8de53f, type: 3}
+  jump:
+  - {fileID: 21300000, guid: 598fb1767626f42e992bb9c2769d86ea, type: 3}
+  - {fileID: 21300000, guid: e2976d09b53264ffbbb9210a1ae1dcc0, type: 3}
+  hurt:
+  - {fileID: 21300000, guid: c123c318507c6405a869f2f89068cf06, type: 3}
+  - {fileID: 21300000, guid: a85f3724632254a6cb24066dc54cbf60, type: 3}
+  opossum:
+  - {fileID: 21300000, guid: baa0c643131554ff99574059ec7da1cc, type: 3}
+  - {fileID: 21300000, guid: 2c5f3b2250c31495db3ffcf7e90bb619, type: 3}
+  - {fileID: 21300000, guid: 74c5b1be9ca4343ca9d68c58dd8b7332, type: 3}
+  - {fileID: 21300000, guid: 23510f1f0d6994dccbcdd1aa3cfe73be, type: 3}
+  - {fileID: 21300000, guid: d3b400141540442d5a4497e34887083f, type: 3}
+  - {fileID: 21300000, guid: 764fc52f7266843e9b3dac17448f873f, type: 3}
+  frog:
+  - {fileID: 21300000, guid: 86ca59b9bca0e409b9ba2784fbe69f01, type: 3}
+  - {fileID: 21300000, guid: 116ac2caa16ad4f73af4539f8b07d019, type: 3}
+  - {fileID: 21300000, guid: 662ace939438646e7a4067a89ec54b9e, type: 3}
+  - {fileID: 21300000, guid: b0305a6bb0adb4f66b864290967ea22b, type: 3}
+  eagle:
+  - {fileID: 21300000, guid: f240dfd4814d34d55a9b033f3c9d8a60, type: 3}
+  - {fileID: 21300000, guid: c97786e9459b34e058449b84cd9aab61, type: 3}
+  - {fileID: 21300000, guid: 36ec151523b4340ef982c2e9eb0af881, type: 3}
+  - {fileID: 21300000, guid: 63301056ddf5f4841800915f26c302d2, type: 3}
+  cherry:
+  - {fileID: 21300000, guid: bdce2a9cb3d0242958c2593a3b8d8742, type: 3}
+  - {fileID: 21300000, guid: 8582e97fa62334fbd8bd10c1052e27b8, type: 3}
+  - {fileID: 21300000, guid: 06c04197e6f394ba897942f561e896c1, type: 3}
+  - {fileID: 21300000, guid: 4f3dc6ccaf04b4061a059006d96715f1, type: 3}
+  - {fileID: 21300000, guid: 273ba8fade558457eb836eefe69bba7f, type: 3}
+  - {fileID: 21300000, guid: 4f35b6058a719446ba48dc4dc2704635, type: 3}
+  - {fileID: 21300000, guid: 056b6a3f6e14d4af2a7d641c4dd44e79, type: 3}
+  gem:
+  - {fileID: 21300000, guid: bd59bf2e866ed4529ae645637eb9c11d, type: 3}
+  - {fileID: 21300000, guid: c9e6b5e11d0ef456eb7f7ebd3e750671, type: 3}
+  - {fileID: 21300000, guid: de20f767e3f3f4aff870112daa2b2562, type: 3}
+  - {fileID: 21300000, guid: 5f35659c40d6a435fade670c478a52b1, type: 3}
+  - {fileID: 21300000, guid: 63fd366633d434aeb8ee3ee766305016, type: 3}
+  music: {fileID: 8300000, guid: 57f12d84ebf04324e92e37dc70ac26b1, type: 3}

@@ -1,0 +1,12 @@
+{
+  "name": "Sunnyland.Tests.Editor",
+  "references": [
+    "Sunnyland.Game"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "optionalUnityReferences": [
+    "TestAssemblies"
+  ]
+}
