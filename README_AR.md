@@ -6,7 +6,7 @@
 
 1. فك ضغط المشروع كاملًا.
 2. افتح Unity Hub، ثم **Add → Add project from disk**، واختر المجلد الذي يحتوي على `Assets` و`Packages` و`ProjectSettings`.
-3. افتحه باستخدام **Unity 2022.3.62f1 LTS**. سيحتاج أول فتح اتصالًا لتنزيل حزم Unity، ومنها Test Framework.
+3. افتحه باستخدام **Unity 2022.3.62f3 LTS**. سيحتاج أول فتح اتصالًا لتنزيل حزم Unity، ومنها Test Framework.
 4. انتظر انتهاء الاستيراد وتجميع C#.
 5. اختر **Sunnyland → Open Start Scene**، أو افتح `Assets/Game/Scenes/Start.unity` يدويًا، ثم اضغط **Play**.
 6. اختَر المرحلة الأولى. المرحلتان التاليتان تُفتحان بعد إنهاء السابقة.

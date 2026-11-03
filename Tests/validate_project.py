@@ -13,6 +13,10 @@ class ProjectTests(unittest.TestCase):
     def levels(self):
         return [json.loads((RESOURCES / f"Level{i}.json").read_text()) for i in range(1, 4)]
 
+    def test_original_demo_animators_have_builtin_module(self):
+        manifest = json.loads((ROOT / "Packages/manifest.json").read_text())
+        self.assertEqual("1.0.0", manifest["dependencies"]["com.unity.modules.animation"])
+
     def test_all_project_json_is_valid(self):
         for p in list(ROOT.rglob("*.json")) + list(ROOT.rglob("*.asmdef")):
             with self.subTest(path=p):

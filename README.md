@@ -9,6 +9,6 @@ Unity 2D platformer source project using the supplied Sunnyland assets. Includes
 - [Validation status](VALIDATION_REPORT.md)
 - [Required Unity checks](TESTING.md)
 
-Open the extracted project with **Unity 2022.3.62f1 LTS**, then open `Assets/Game/Scenes/Start.unity` and press Play.
+Open the extracted project with **Unity 2022.3.62f3 LTS**, then open `Assets/Game/Scenes/Start.unity` and press Play.
 
-The source passed eight structural checks and C# syntax parsing. Unity Editor was unavailable during creation, so Unity compilation, gameplay testing and executable builds have **not** been verified. This is a source project, not a tested EXE.
+The source passed nine structural checks and C# syntax parsing. Unity Editor was unavailable during creation, so Unity compilation, gameplay testing and executable builds have **not** been verified. This is a source project, not a tested EXE.
